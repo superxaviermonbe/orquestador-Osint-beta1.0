@@ -1,0 +1,6 @@
+requests>=2.31
+# Opcionales (el toolkit degrada con elegancia si faltan):
+dnspython>=2.4        # registros DNS completos
+python-whois>=0.9     # WHOIS (si no, se usa el binario `whois`)
+phonenumbers>=8.13    # análisis offline de teléfonos
+flask>=3.0            # interfaz web
